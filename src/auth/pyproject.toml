@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "auth"
+version = "0.1.0"
+description = ""
+authors = ["paul-kang-1 <loiter97@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^2.2.2"
+mysqlclient = "^2.1.1"
+pyjwt = "^2.6.0"
+python-dotenv = "^0.21.0"
+flask-mysqldb = "1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
